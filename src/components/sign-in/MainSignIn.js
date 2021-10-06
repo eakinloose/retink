@@ -41,7 +41,7 @@ const SignIn = () => {
                   onChange={(e) => setPassword(e.target.value)}
                />
                <Link to="/DashBoard">
-                  <button type="submit" text="Next" />
+                  <button type="submit">Submit</button>
                </Link>
             </form>
          </FormWrapper>
